@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Tharun%20Satrasala&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=80&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=300&section=header&text=Tharun%20Satrasala&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Buddy+AI+%E2%80%94+Ollama+%2B+Puppeteer+Desktop+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Ambulance+Dispatch;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
 
@@ -13,7 +12,7 @@
 
 </div>
 
-<br/>
+---
 
 ## ❖ About Me
 
@@ -26,7 +25,7 @@ Right now that means building a desktop AI agent that runs a local LLM through O
 ▹ GSSoC 2026 — Open Source Contributor
 ▹ Builds full production tools, not course-grade projects
 
-<br/>
+---
 
 ## ◎ Current Focus
 
@@ -36,7 +35,7 @@ Right now that means building a desktop AI agent that runs a local LLM through O
 ▹ Strengthening ML math foundations through self-study (Linear Algebra, NPTEL)
 ▹ Practicing algorithmic problem-solving daily on LeetCode
 
-<br/>
+---
 
 ## ▣ Featured Projects
 
@@ -74,7 +73,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 [Repository →](https://github.com/Tharunnagabramhagna/Foundira-website)
 
-<br/>
+---
 
 ## ⚙ Tech Stack
 
@@ -85,6 +84,8 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+---
 
 **Frameworks & Libraries**
 
@@ -98,6 +99,8 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
+---
+
 **AI & Local Inference**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
@@ -107,10 +110,14 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white)
 ![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white)
 
+---
+
 **Databases**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
+---
 
 **Tools & Platforms**
 
@@ -120,7 +127,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-1A73E8?style=for-the-badge&logoColor=white)
 
-<br/>
+---
 
 ## ▤ GitHub Stats
 
@@ -136,21 +143,19 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 </div>
 
+---
+
 ## ⌨ LeetCode Stats
 
 <div align="center">
 
 <img src="https://leetcard.jacoblin.cool/SatrasalaTharun_19?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode Stats" width="100%"/>
 
-</div>
-
-<div align="center">
-
 248+ problems solved · primarily C++ · Arrays, Trees, Graphs & Dynamic Programming · 50-Day and 100-Day streak badges (2026)
 
 </div>
 
-<br/>
+---
 
 ## ⎇ Open Source — GSSoC 2026
 
@@ -158,7 +163,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate issues in React, Node.js, and TypeScript codebases, with the Electron/AI-agent work from Buddy AI as a differentiating skill set.
 
-<br/>
+---
 
 ## ✉ Let's Connect
 
