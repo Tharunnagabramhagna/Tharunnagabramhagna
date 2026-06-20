@@ -1,9 +1,8 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Tharun%20Satrasala&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=15&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Tharun%20Satrasala&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+Buddy+AI+%E2%80%94+Ollama+%2B+Puppeteer+Desktop+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Ambulance+Dispatch;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Buddy+AI+%E2%80%94+Ollama+%2B+Puppeteer+Desktop+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Ambulance+Dispatch;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tharunnagabramhagna)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/satrasala-tharun-819308361)
@@ -97,13 +96,15 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 
 **AI & Local Inference**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![ChatGPT](https://custom-icon-badges.demolab.com/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white)
+![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white)
 
 **Databases**
 
@@ -116,6 +117,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-1A73E8?style=for-the-badge&logoColor=white)
 
 <br/>
 
@@ -165,8 +167,9 @@ Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate
 
 <br/>
 
-✦
-
 If you made it this far — thanks for stopping by. Always open to collaborating on something worth building.
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%"/>
+
 </div>
+ 
