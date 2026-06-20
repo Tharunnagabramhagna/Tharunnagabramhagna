@@ -12,7 +12,7 @@
 
 </div>
 
----
+<hr/>
 
 ## ❖ About Me
 
@@ -25,7 +25,7 @@ Right now that means building a desktop AI agent that runs a local LLM through O
 ▹ GSSoC 2026 — Open Source Contributor
 ▹ Builds full production tools, not course-grade projects
 
----
+<hr/>
 
 ## ◎ Current Focus
 
@@ -35,7 +35,7 @@ Right now that means building a desktop AI agent that runs a local LLM through O
 ▹ Strengthening ML math foundations through self-study (Linear Algebra, NPTEL)
 ▹ Practicing algorithmic problem-solving daily on LeetCode
 
----
+<hr/>
 
 ## ▣ Featured Projects
 
@@ -46,7 +46,7 @@ A Windows desktop AI agent that activates on a wake word or global hotkey, takes
 
 [Repository →](https://github.com/Tharunnagabramhagna/BUDDY-AI_Advanced-AI-Agent)
 
----
+<hr/>
 
 ### ◆ LifeLine-AI
 A real-time emergency dispatch platform — dispatchers trigger emergency events and watch ambulances get auto-assigned and tracked live on a map over WebSockets. JWT-secured accounts, SQLite persistence, and a standalone Python module implementing a hybrid A*/Dijkstra routing engine with traffic prediction, built independently of the web stack.
@@ -55,7 +55,7 @@ A real-time emergency dispatch platform — dispatchers trigger emergency events
 
 [Repository →](https://github.com/Tharunnagabramhagna/LifeLine-AI)
 
----
+<hr/>
 
 ### ◆ Nexus Smart Resource System
 AI-driven resource management system for university labs, built under competitive time constraints at the Fortex Hackathon. Real-time conflict prevention and smart recommendation tags balance lab capacity, with a generative facility-visualizer tool powered by the Gemini API.
@@ -64,7 +64,7 @@ AI-driven resource management system for university labs, built under competitiv
 
 [Repository →](https://github.com/Tharunnagabramhagna/nexus-smart-resource)
 
----
+<hr/>
 
 ### ◆ Foundira
 Campus-based lost-and-found platform with email/password and Google/Facebook OAuth, smart item matching, real-time chat with ownership verification, and a dashboard for tracking reports end-to-end.
@@ -73,7 +73,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 [Repository →](https://github.com/Tharunnagabramhagna/Foundira-website)
 
----
+<hr/>
 
 ## ⚙ Tech Stack
 
@@ -85,7 +85,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
----
+<hr/>
 
 **Frameworks & Libraries**
 
@@ -99,7 +99,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
----
+<hr/>
 
 **AI & Local Inference**
 
@@ -110,14 +110,14 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white)
 ![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white)
 
----
+<hr/>
 
 **Databases**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
----
+<hr/>
 
 **Tools & Platforms**
 
@@ -127,7 +127,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-1A73E8?style=for-the-badge&logoColor=white)
 
----
+<hr/>
 
 ## ▤ GitHub Stats
 
@@ -143,7 +143,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 </div>
 
----
+<hr/>
 
 ## ⌨ LeetCode Stats
 
@@ -155,7 +155,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 </div>
 
----
+<hr/>
 
 ## ⎇ Open Source — GSSoC 2026
 
@@ -163,7 +163,7 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate issues in React, Node.js, and TypeScript codebases, with the Electron/AI-agent work from Buddy AI as a differentiating skill set.
 
----
+<hr/>
 
 ## ✉ Let's Connect
 
