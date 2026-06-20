@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=300&section=header&text=Tharun%20Satrasala&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
+<img src="./banner.svg" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Buddy+AI+%E2%80%94+Ollama+%2B+Puppeteer+Desktop+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Ambulance+Dispatch;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
 
