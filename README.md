@@ -1,6 +1,7 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Tharun%20Satrasala&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=AI%2FML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI/ML Undergrad, Full-Stack Developer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=80&section=footer&animation=fadeIn" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+Buddy+AI+%E2%80%94+Ollama+%2B+Puppeteer+Desktop+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Ambulance+Dispatch;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
 
@@ -46,7 +47,7 @@ A Windows desktop AI agent that activates on a wake word or global hotkey, takes
 
 [Repository →](https://github.com/Tharunnagabramhagna/BUDDY-AI_Advanced-AI-Agent)
 
-<p align="center">✦</p>
+---
 
 ### ◆ LifeLine-AI
 A real-time emergency dispatch platform — dispatchers trigger emergency events and watch ambulances get auto-assigned and tracked live on a map over WebSockets. JWT-secured accounts, SQLite persistence, and a standalone Python module implementing a hybrid A*/Dijkstra routing engine with traffic prediction, built independently of the web stack.
@@ -55,7 +56,7 @@ A real-time emergency dispatch platform — dispatchers trigger emergency events
 
 [Repository →](https://github.com/Tharunnagabramhagna/LifeLine-AI)
 
-<p align="center">✦</p>
+---
 
 ### ◆ Nexus Smart Resource System
 AI-driven resource management system for university labs, built under competitive time constraints at the Fortex Hackathon. Real-time conflict prevention and smart recommendation tags balance lab capacity, with a generative facility-visualizer tool powered by the Gemini API.
@@ -64,7 +65,7 @@ AI-driven resource management system for university labs, built under competitiv
 
 [Repository →](https://github.com/Tharunnagabramhagna/nexus-smart-resource)
 
-<p align="center">✦</p>
+---
 
 ### ◆ Foundira
 Campus-based lost-and-found platform with email/password and Google/Facebook OAuth, smart item matching, real-time chat with ownership verification, and a dashboard for tracking reports end-to-end.
@@ -127,6 +128,8 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 <img src="https://github-readme-stats.vercel.app/api?username=Tharunnagabramhagna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="100%"/>
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tharunnagabramhagna&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" width="100%"/>
+
 <img src="https://streak-stats.demolab.com?user=Tharunnagabramhagna&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tharunnagabramhagna&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%"/>
@@ -169,7 +172,4 @@ Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate
 
 If you made it this far — thanks for stopping by. Always open to collaborating on something worth building.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%"/>
-
 </div>
- 
