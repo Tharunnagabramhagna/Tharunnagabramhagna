@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi, I'm Tharun 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Tharun%20Satrasala&fontSize=44&fontColor=ffffff&fontAlignY=35&desc=AI%20%26%20ML%20Undergrad%20%C2%B7%20Full-Stack%20%2B%20Real-Time%20Systems%20Developer&descAlignY=58&descSize=15&animation=fadeIn" width="100%" alt="Tharun Satrasala — AI & ML Undergrad, Full-Stack Developer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+%26+ML+Undergrad+%40+SRM+University+AP;Building+Buddy+AI+%E2%80%94+a+desktop+automation+agent;Full-Stack+%2B+Real-Time+Systems+Developer;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Buddy+AI+%E2%80%94+Electron+%2B+Puppeteer+Agent;Architecting+LifeLine-AI+%E2%80%94+Real-Time+Emergency+Platform;GSSoC+2026+Open+Source+Contributor;248%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tharunnagabramhagna)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satrasala-tharun-819308361)
@@ -14,54 +14,59 @@
 
 <br/>
 
-## About Me
+## ✦ About Me
 
 I'm a first-year B.Tech CSE (AI & ML) student at SRM University AP, more interested in shipping working software than waiting until I "know enough" to start. Most of what I actually know about engineering — state desync bugs, flaky browser automation, race conditions in real-time systems — came from breaking things in my own projects first, not from a course.
 
 Right now that means building a desktop AI agent that drives a real Chromium browser through Electron and Puppeteer, architecting a real-time emergency-response system on Socket.io, and going back to first principles on the math side with Gilbert Strang's Linear Algebra (MIT OCW) and IISc's Essential Mathematics for ML (NPTEL).
 
-I also spend a lot of time on LeetCode — 248+ problems in, mostly C++, working through trees, graphs, and DP — not because it's fun exactly, but because I'd rather have the reflexes built before an interview needs them.
-
-## Current Focus
-
-- 🔭 Building **Buddy AI** — an Electron + Puppeteer desktop agent that automates real browser workflows
-- 🚑 Architecting **LifeLine-AI** — a real-time emergency coordination platform with live Socket.io dashboards
-- 🌱 Contributing as part of **GSSoC 2026**, picking up issues in React / Node.js / TypeScript codebases
-- 📐 Strengthening ML math foundations through self-study (Linear Algebra, NPTEL)
-- 🧠 Practicing algorithmic problem-solving daily on LeetCode
+▹ B.Tech CSE (AI & ML) — SRM University AP, Batch 2025–2029
+▹ 248+ problems solved on LeetCode, primarily C++
+▹ GSSoC 2026 — Open Source Contributor
+▹ Builds full production tools, not course-grade projects
 
 <br/>
 
-## Featured Projects
+## ✦ Current Focus
 
-### 🤖 Buddy AI
+▹ Building **Buddy AI** — an Electron + Puppeteer desktop agent that automates real browser workflows
+▹ Architecting **LifeLine-AI** — a real-time emergency coordination platform with live Socket.io dashboards
+▹ Contributing as part of **GSSoC 2026**, picking up issues in React / Node.js / TypeScript codebases
+▹ Strengthening ML math foundations through self-study (Linear Algebra, NPTEL)
+▹ Practicing algorithmic problem-solving daily on LeetCode
+
+<br/>
+
+## ✦ Featured Projects
+
+### ◆ Buddy AI
 Desktop AI agent that combines a conversational interface with real browser automation — built on Electron's main/renderer process architecture with Puppeteer driving the browser. Plans multi-step tasks and executes them on-screen the way a person would, instead of just calling an API.
 
 `Electron` `React` `Puppeteer` `Node.js`
 
 [Repository →](https://github.com/Tharunnagabramhagna/BUDDY-AI_Advanced-AI-Agent)
 
----
+<p align="center">✦</p>
 
-### 🚑 LifeLine-AI
+### ◆ LifeLine-AI
 Real-time emergency response coordination system with JWT-secured authentication, live incident dashboards, and Socket.io event broadcasting across multi-role response teams.
 
 `React` `Node.js` `Express` `SQLite` `Socket.io` `JWT`
 
 [Repository →](https://github.com/Tharunnagabramhagna/LifeLine-AI)
 
----
+<p align="center">✦</p>
 
-### 🏛️ Nexus Smart Resource System
+### ◆ Nexus Smart Resource System
 AI-driven resource management system for university labs, built under competitive time constraints at the Fortex Hackathon. Features real-time conflict prevention and smart recommendation tags to balance lab capacity.
 
 `TypeScript` `Smart Systems` `Automation`
 
 [Repository →](https://github.com/Tharunnagabramhagna/nexus-smart-resource) · [Live Demo →](https://tharunnagabramhagna.github.io/nexus-smart-resource)
 
----
+<p align="center">✦</p>
 
-### 🔍 Foundira
+### ◆ Foundira
 Campus-based lost-and-found platform with JWT-secured authentication, smart item matching, real-time chat, and a clean dashboard for tracking reports from submission through recovery.
 
 `React` `Node.js` `JWT` `Dashboard UI`
@@ -70,7 +75,7 @@ Campus-based lost-and-found platform with JWT-secured authentication, smart item
 
 <br/>
 
-## Tech Stack
+## ✦ Tech Stack
 
 **Languages**
 
@@ -105,7 +110,7 @@ Campus-based lost-and-found platform with JWT-secured authentication, smart item
 
 <br/>
 
-## GitHub Stats
+## ✦ GitHub Stats
 
 <div align="center">
 
@@ -117,7 +122,7 @@ Campus-based lost-and-found platform with JWT-secured authentication, smart item
 
 </div>
 
-## LeetCode Stats
+## ✦ LeetCode Stats
 
 <div align="center">
 
@@ -133,7 +138,7 @@ Campus-based lost-and-found platform with JWT-secured authentication, smart item
 
 <br/>
 
-## Open Source — GSSoC 2026
+## ✦ Open Source — GSSoC 2026
 
 [![GSSoC](https://img.shields.io/badge/GSSoC-2026-FF6B6B?style=for-the-badge)](https://gssoc.girlscript.tech/)
 
@@ -141,7 +146,7 @@ Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate
 
 <br/>
 
-## Let's Connect
+## ✦ Let's Connect
 
 <div align="center">
 
@@ -150,6 +155,8 @@ Contributing as a GSSoC 2026 participant — picking up beginner-to-intermediate
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/SatrasalaTharun_19)
 
 <br/>
+
+✦
 
 If you made it this far — thanks for stopping by. Always open to collaborating on something worth building.
 
