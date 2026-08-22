@@ -1,0 +1,59 @@
+name: Refresh GitHub stats cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create output folder
+        run: mkdir -p github-stats
+
+      - name: Fetch cards and keep only valid SVGs
+        shell: bash
+        run: |
+          fetch_card () {
+            local url="$1" out="$2" tmp
+            tmp="$(mktemp)"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 30 "$url" -o "$tmp" \
+               && head -c 5 "$tmp" | grep -qiE '^(<\?xml|<svg)'; then
+              mv "$tmp" "$out"
+              echo "updated $out"
+            else
+              echo "fetch failed for $out - keeping last committed version"
+              rm -f "$tmp"
+            fi
+          }
+
+          fetch_card "https://github-readme-stats.vercel.app/api?username=Tharunnagabramhagna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" \
+            "github-stats/overview.svg"
+
+          fetch_card "https://github-readme-stats.vercel.app/api/top-langs/?username=Tharunnagabramhagna&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" \
+            "github-stats/top-langs.svg"
+
+          fetch_card "https://github-readme-activity-graph.vercel.app/graph?username=Tharunnagabramhagna&theme=tokyo-night&hide_border=true&area=true" \
+            "github-stats/activity-graph.svg"
+
+          fetch_card "https://streak-stats.demolab.com?user=Tharunnagabramhagna&theme=tokyonight&hide_border=true" \
+            "github-stats/streak.svg"
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats/*.svg
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore: refresh GitHub stats cards"
+            git push
+          fi
