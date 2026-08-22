@@ -11,9 +11,12 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create output folder
         run: mkdir -p github-stats
@@ -24,8 +27,9 @@ jobs:
           fetch_card () {
             local url="$1" out="$2" tmp
             tmp="$(mktemp)"
+
             if curl -fsSL --retry 3 --retry-delay 5 --max-time 30 "$url" -o "$tmp" \
-               && head -c 5 "$tmp" | grep -qiE '^(<\?xml|<svg)'; then
+              && head -c 5 "$tmp" | grep -qiE '^(<\?xml|<svg)'; then
               mv "$tmp" "$out"
               echo "updated $out"
             else
@@ -47,13 +51,31 @@ jobs:
             "github-stats/streak.svg"
 
       - name: Commit changes if any
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add github-stats/*.svg
+
           if git diff --cached --quiet; then
             echo "no changes to commit"
-          else
-            git commit -m "chore: refresh GitHub stats cards"
-            git push
+            exit 0
           fi
+
+          git commit -m "chore: refresh GitHub stats cards"
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:$BRANCH"; then
+              echo "stats cards pushed successfully"
+              exit 0
+            fi
+
+            echo "Remote changed; syncing and retrying..."
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH"
+          done
+
+          echo "Could not push after three attempts."
+          exit 1
