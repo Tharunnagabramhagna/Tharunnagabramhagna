@@ -133,13 +133,13 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tharunnagabramhagna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="100%"/>
+<img src="./github-stats/overview.svg" alt="GitHub Stats" width="100%"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tharunnagabramhagna&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" width="100%"/>
+<img src="./github-stats/activity-graph.svg" alt="Contribution Activity Graph" width="100%"/>
 
-<img src="https://streak-stats.demolab.com?user=Tharunnagabramhagna&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
+<img src="./github-stats/streak.svg" alt="GitHub Streak" width="100%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tharunnagabramhagna&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%"/>
+<img src="./github-stats/top-langs.svg" alt="Top Languages" width="60%"/>
 
 </div>
 
