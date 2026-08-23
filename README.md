@@ -133,13 +133,15 @@ Campus-based lost-and-found platform with email/password and Google/Facebook OAu
 
 <div align="center">
 
-<img src="./github-stats/overview.svg" alt="GitHub Stats" width="100%"/>
+<img src="https://raw.githubusercontent.com/Tharunnagabramhagna/Tharunnagabramhagna/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="GitHub profile details" width="100%"/>
 
-<img src="./github-stats/activity-graph.svg" alt="Contribution Activity Graph" width="100%"/>
+<img src="https://raw.githubusercontent.com/Tharunnagabramhagna/Tharunnagabramhagna/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repositories by language" width="49%"/>
 
-<img src="./github-stats/streak.svg" alt="GitHub Streak" width="100%"/>
+<img src="https://raw.githubusercontent.com/Tharunnagabramhagna/Tharunnagabramhagna/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used commit languages" width="49%"/>
 
-<img src="./github-stats/top-langs.svg" alt="Top Languages" width="60%"/>
+<img src="https://raw.githubusercontent.com/Tharunnagabramhagna/Tharunnagabramhagna/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub statistics" width="49%"/>
+
+<img src="https://raw.githubusercontent.com/Tharunnagabramhagna/Tharunnagabramhagna/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time" width="49%"/>
 
 </div>
 
