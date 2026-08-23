@@ -1,81 +1,27 @@
-name: Refresh GitHub stats cards
+name: Generate GitHub profile cards
 
 on:
   schedule:
     - cron: "17 3 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  refresh:
+  build:
     runs-on: ubuntu-latest
+    name: Generate profile summary cards
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Create output folder
-        run: mkdir -p github-stats
-
-      - name: Fetch cards and keep only valid SVGs
-        shell: bash
-        run: |
-          fetch_card () {
-            local url="$1" out="$2" tmp
-            tmp="$(mktemp)"
-
-            if curl -fsSL --retry 3 --retry-delay 5 --max-time 30 "$url" -o "$tmp" \
-              && head -c 5 "$tmp" | grep -qiE '^(<\?xml|<svg)'; then
-              mv "$tmp" "$out"
-              echo "updated $out"
-            else
-              echo "fetch failed for $out - keeping last committed version"
-              rm -f "$tmp"
-            fi
-          }
-
-          fetch_card "https://github-readme-stats.vercel.app/api?username=Tharunnagabramhagna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" \
-            "github-stats/overview.svg"
-
-          fetch_card "https://github-readme-stats.vercel.app/api/top-langs/?username=Tharunnagabramhagna&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" \
-            "github-stats/top-langs.svg"
-
-          fetch_card "https://github-readme-activity-graph.vercel.app/graph?username=Tharunnagabramhagna&theme=tokyo-night&hide_border=true&area=true" \
-            "github-stats/activity-graph.svg"
-
-          fetch_card "https://streak-stats.demolab.com?user=Tharunnagabramhagna&theme=tokyonight&hide_border=true" \
-            "github-stats/streak.svg"
-
-      - name: Commit changes if any
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          BRANCH: ${{ github.ref_name }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add github-stats/*.svg
-
-          if git diff --cached --quiet; then
-            echo "no changes to commit"
-            exit 0
-          fi
-
-          git commit -m "chore: refresh GitHub stats cards"
-
-          for attempt in 1 2 3; do
-            if git push origin "HEAD:$BRANCH"; then
-              echo "stats cards pushed successfully"
-              exit 0
-            fi
-
-            echo "Remote changed; syncing and retrying..."
-            git fetch origin "$BRANCH"
-            git rebase "origin/$BRANCH"
-          done
-
-          echo "Could not push after three attempts."
-          exit 1
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: Tharunnagabramhagna
+          BRANCH_NAME: main
+          UTC_OFFSET: 5.5
+          THEME: tokyonight
+          AUTO_PUSH: true
