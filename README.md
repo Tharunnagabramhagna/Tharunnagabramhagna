@@ -176,6 +176,22 @@ Right now that means building a desktop AI agent that runs a **local LLM through
 
 ---
 
+## ⌨ GeeksforGeeks Profile
+
+<div align="center">
+
+<a href="https://www.geeksforgeeks.org/profile/satrasalatharun19?tab=activity">
+  <img src="https://geeks-for-geeks-stats-card.vercel.app/?username=satrasalatharun19&theme=dark" alt="GeeksforGeeks Stats" width="100%"/>
+</a>
+
+<br/>
+
+[![GeeksforGeeks](https://img.shields.io/badge/View_POTD_Activity_Heatmap-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/satrasalatharun19?tab=activity)
+
+</div>
+
+---
+
 ## ⎇ Open Source — GSSoC 2026
 
 [![GSSoC](https://img.shields.io/badge/GSSoC-2026-FF6B6B?style=for-the-badge)](https://gssoc.girlscript.org/)
@@ -191,6 +207,7 @@ Contributing as a **GSSoC 2026 participant** — picking up **beginner-to-interm
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tharunnagabramhagna)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/satrasala-tharun-819308361)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/SatrasalaTharun_19)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/satrasalatharun19)
 
 <br/>
 
